@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>Познай числото</h2>
+        <p>Изберете сложонст:</p>
+        <select name="difficulty" id="difficulty">
+            <option value="easy">от 1 до 10</option>
+            <option value="medium">от 1 до 50</option>
+            <option value="hard">от 1 до 100</option>
+        </select>
+        <p>Въведи число:</p>
+        <input type="text" name="userNum" id="userNum">
+        <br>
+        <input type="submit" value="OK" id="btnConfirm">
+        <br>
+        <div id="result"></div>
+        <br>
+        <input type="submit" value="Играй отново!" style="visibility: hidden;" id="resetGame">
+    </div>
+    <script src="guess-the-number.js"></script>
+</body>
+
+</html>
